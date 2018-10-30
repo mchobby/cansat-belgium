@@ -117,7 +117,7 @@ void loop() {
           Blink(RADIO_LED, 50, 1); //blink LED once, 50ms between blinks
       } else {
           Serial.println("Receive failed");
-          Blink(RADIO_LED, 50, 1); //blink LED once, 50ms between blinks
+          Blink(RADIO_LED, 50, 2 ); //blink LED twice, 50ms between blinks
       }
     } else {
         Serial.println("No reply, is another RFM69 listening?");
@@ -132,7 +132,7 @@ void init_radio_module() {
   pinMode(RFM69_RST, OUTPUT);
   digitalWrite(RFM69_RST, LOW);
 
-  Serial.println("Feather RFM69 TX Test!");
+  Serial.println("Cansat-Belgium - Mission 1 - Data Emitter");
   Serial.println();
 
   // manual reset
