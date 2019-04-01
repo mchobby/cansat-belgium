@@ -1,4 +1,4 @@
-# Modèle enlevé
+# Modèle 3D enlevé - 3D Model removed
 
 A la demande expresse de l'équipe DESANG de l'Institut St Michel à Bruxelles, ce mdèle 3D est maintenant enlevé des ressources du GitHub.
 
